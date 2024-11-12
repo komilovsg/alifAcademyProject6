@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section id="about">
+      <section class="text-gray-600 body-font container mx-auto">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col items-center mb-20">
+            <p class="h6Home text-center">Enjoy your studying!</p>
+            <h1 class="h1Home text-center">Our online courses</h1>
+          </div>
+          <nav class="text-gray-600 body-font mx-[100px]">
+            <div class="container flex justify-between pb-[80px] items-center">
+              <nav class="flex flex-wrap items-center text-base justify-center">
+                <a
+                  class="mr-5 hover:text-orange-500 hover:border hover:border-orange-500 px-2 border border-white rounded"
+                  data-category="all"
+                  >All</a
+                >
+                <a
+                  class="mr-5 hover:text-orange-500 hover:border hover:border-orange-500 px-2 border border-white rounded"
+                  data-category="marketing"
+                  >Marketing</a
+                >
+                <a
+                  class="mr-5 hover:text-orange-500 hover:border hover:border-orange-500 px-2 border border-white rounded"
+                  data-category="management"
+                  >Management</a
+                >
+                <a
+                  class="mr-5 hover:text-orange-500 hover:border hover:border-orange-500 px-2 border border-white rounded"
+                  data-category="hr"
+                  >HR & Recruting</a
+                >
+                <a
+                  class="mr-5 hover:text-orange-500 hover:border hover:border-orange-500 px-2 border border-white rounded"
+                  data-category="design"
+                  >Design</a
+                >
+                <a
+                  class="mr-5 hover:text-orange-500 hover:border hover:border-orange-500 px-2 border border-white rounded"
+                  data-category="development"
+                  >Development</a
+                >
+              </nav>
+              <div class="flex items-center gap-7 relative">
+                <input
+                  type="search"
+                  placeholder="Search course..."
+                  class="border-gray-200 border rounded w-[300px] hover:border hover:border-orange-500 px-2 border border-gray-200 rounded"
+                />
+                <img
+                  src="../src/shared/images/search.png"
+                  alt="search"
+                  class="absolute right-2"
+                  width="16"
+                  height="16"
+                />
+              </div>
+            </div>
+          </nav>
+          <div
+            class="flex flex-wrap mx-[80px] -mb-10 -mt-10 md:space-y-0 space-y-6 all"
+          >
+            <div class="p-4 md:w-1/3 marketing">
+              <div
+                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow"
+              >
+                <img
+                  class="md:h-auto w-full object-cover object-center"
+                  src="../src/shared/images/users/image1.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="text-white text-center rounded bg-green-400 w-[120px]"
+                  >
+                    Marketing
+                  </h2>
+                  <h1
+                    class="title-font text-2xl font-medium text-gray-900 mb-3 mt-5"
+                  >
+                    The Ultimate Google Ads Training Course
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <a
+                      class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold"
+                      >$ 100
+                    </a>
+                    <p class="border-l-2 border-gray-200 px-2 text-gray-500">
+                      by Jerome Bell
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 management">
+              <div
+                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow"
+              >
+                <img
+                  class="md:h-auto w-full object-cover object-center"
+                  src="../src/shared/images/users/image2.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="text-white text-center rounded bg-blue-400 w-[120px]"
+                  >
+                    Management
+                  </h2>
+                  <h1
+                    class="title-font text-2xl font-medium text-gray-900 mb-3 mt-5"
+                  >
+                    The Ultimate Google Ads Training Course
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <a
+                      class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold"
+                      >$ 480
+                    </a>
+                    <p class="border-l-2 border-gray-200 px-2 text-gray-500">
+                      by Marvin McKinney
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 hr">
+              <div
+                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow"
+              >
+                <img
+                  class="md:h-auto w-full object-cover object-center"
+                  src="../src/shared/images/users/image1.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="text-white text-center rounded bg-orange-400 w-[120px]"
+                  >
+                    HR & Recruting
+                  </h2>
+                  <h1
+                    class="title-font text-2xl font-medium text-gray-900 mb-3 mt-5"
+                  >
+                    The Ultimate Google Ads Training Course
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <a
+                      class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold"
+                      >$ 200
+                    </a>
+                    <p class="border-l-2 border-gray-200 px-2 text-gray-500">
+                      by Leslie Alexander Li
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 marketing">
+              <div
+                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow"
+              >
+                <img
+                  class="md:h-auto w-full object-cover object-center"
+                  src="../src/shared/images/users/image4.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="text-white text-center rounded bg-green-400 w-[80px]"
+                  >
+                    Marketing
+                  </h2>
+                  <h1
+                    class="title-font text-2xl font-medium text-gray-900 mb-3 mt-5"
+                  >
+                    Brand Management & PR Communications
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <a
+                      class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold"
+                      >$ 530
+                    </a>
+                    <p class="border-l-2 border-gray-200 px-2 text-gray-500">
+                      by Kristin Watson
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 design">
+              <div
+                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow"
+              >
+                <img
+                  class="md:h-auto w-full object-cover object-center"
+                  src="../src/shared/images/users/image5.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="text-white text-center rounded bg-[rgba(245,47,110,1)] w-[80px]"
+                  >
+                    Design
+                  </h2>
+                  <h1
+                    class="title-font text-2xl font-medium text-gray-900 mb-3 mt-5"
+                  >
+                    Graphic Design Basic
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <a
+                      class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold"
+                      >$ 500
+                    </a>
+                    <p class="border-l-2 border-gray-200 px-2 text-gray-500">
+                      by Guy Hawkins
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 management">
+              <div
+                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow"
+              >
+                <img
+                  class="md:h-auto w-full object-cover object-center"
+                  src="../src/shared/images/users/image6.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="text-white text-center rounded bg-blue-400 w-[120px]"
+                  >
+                    Management
+                  </h2>
+                  <h1
+                    class="title-font text-2xl font-medium text-gray-900 mb-3 mt-5"
+                  >
+                    Business Development Management
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <a
+                      class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold"
+                      >$ 400
+                    </a>
+                    <p class="border-l-2 border-gray-200 px-2 text-gray-500">
+                      by Dianne Russell
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 development">
+              <div
+                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow"
+              >
+                <img
+                  class="md:h-auto w-full object-cover object-center"
+                  src="../src/shared/images/users/image7.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="text-white text-center rounded bg-[rgba(119,114,241,1)] w-[120px]"
+                  >
+                    Development
+                  </h2>
+                  <h1
+                    class="title-font text-2xl font-medium text-gray-900 mb-3 mt-5"
+                  >
+                    Highload Software Architecture
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <a
+                      class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold"
+                      >$ 600
+                    </a>
+                    <p class="border-l-2 border-gray-200 px-2 text-gray-500">
+                      by Brooklyn Simmons
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 hr">
+              <div
+                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow"
+              >
+                <img
+                  class="md:h-auto w-full object-cover object-center"
+                  src="../src/shared/images/users/image8.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="text-white text-center rounded bg-orange-400 w-[120px]"
+                  >
+                    HR & Recruting
+                  </h2>
+                  <h1
+                    class="title-font text-2xl font-medium text-gray-900 mb-3 mt-5"
+                  >
+                    Human Resources – Selection and Recruitment
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <a
+                      class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold"
+                      >$ 150
+                    </a>
+                    <p class="border-l-2 border-gray-200 px-2 text-gray-500">
+                      by Kathryn Murphy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 design">
+              <div
+                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow"
+              >
+                <img
+                  class="md:h-auto w-full object-cover object-center"
+                  src="../src/shared/images/users/image9.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="text-white text-center rounded bg-[rgba(245,47,110,1)] w-[120px]"
+                  >
+                    Design
+                  </h2>
+                  <h1
+                    class="title-font text-2xl font-medium text-gray-900 mb-3 mt-5"
+                  >
+                    User Experience. Human-centered Design
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <a
+                      class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold"
+                      >$ 240
+                    </a>
+                    <p class="border-l-2 border-gray-200 px-2 text-gray-500">
+                      by Cody Fisher
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-center items-center gap-2 mt-10">
+            <img
+              src="../src/shared/images/Convert.png"
+              alt="Convert"
+              width="24"
+              height="24"
+            />
+            <p>Load more</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="sec2 bg-[#f4f5f6] pb-[80px]">
+        <div class="textContent">
+          <h6 class="h6Home">TESTIMONIALS</h6>
+          <h1 class="h1Home">What our students say</h1>
+        </div>
+
+        <div class="divAllSec2">
+          <img src="../src/shared/icons/prev-btn.png" alt="" />
+          <div class="insideDivSec2">
+            <img src="../src/shared/icons/braces.png" alt="" />
+            <div class="insideRightSide">
+              <p class="lorem">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Sapiente, iusto eaque quasi ea odit iure dolorem quaerat
+                veritatis rerum excepturi qui minima culpa ipsam mollitia
+                exercitationem provident nemo saepe recusandae!
+              </p>
+              <div class="imgText">
+                <img src="../src/shared/images/image (60).png" alt="" />
+                <p class="h6HomeSeven">
+                  Eleanor Pena<span>Position, Course</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <img src="../src/shared/icons/nextbtn.png" alt="" />
+        </div>
+
+        <img src="../src/shared/icons/dots (1).png" alt="" />
+      </div>
+
+      <section
+        class="text-gray-600 body-font flex justify-center items-center container mx-auto"
+      >
+        <div
+          class="flex px-5 py-24 md:flex-row flex-col items-center w-[1200px]"
+        >
+          <div
+            class="lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+          >
+            <p class="leading-relaxed uppercase">Createx Certificate</p>
+            <h1
+              class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+            >
+              Your expertise will be confirmed
+            </h1>
+            <p class="mt-10">
+              We are accredited by international professional organizations and
+              institutes:
+            </p>
+            <div class="flex flex-wrap items-center gap-10">
+              <img
+                src="../src/shared/images/logoDelMar.png"
+                alt="logo"
+                width="105"
+                height="50"
+              />
+
+              <img
+                src="../src/shared/images/logoSentinalConsulting.png"
+                alt="logo"
+                width="105"
+                height="50"
+              />
+              <img
+                src="../src/shared/images/logoNotional.png"
+                alt="logo"
+                width="105"
+                height="50"
+              />
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img
+              class="object-cover object-center rounded"
+              alt="hero"
+              src="../src/shared/images/sertificat.png"
+            />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

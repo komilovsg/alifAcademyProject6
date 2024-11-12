@@ -1,0 +1,515 @@
+.firstSection {
+  background-image: url("../../shared/images/background\ \(2\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 120px;
+}
+
+.firstContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.asideLeftHome {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.contentPlayH1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contentPlay {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.asideLeftHome h1 {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 83.2px;
+  letter-spacing: 1px;
+  color: #1e212c;
+  padding-left: 20px;
+}
+
+.contentButtons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-left: 20px;
+}
+
+.containerTochka {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+.containerTochka h1 {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 59.8px;
+  text-align: center;
+  color: #1e212c;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.containerTochka h1 span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #1e212c;
+}
+
+.secondSection {
+  padding: 180px 120px;
+  display: flex;
+  gap: 160px;
+}
+
+.contentCheck p {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #424551;
+}
+
+.contentCheck {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contentHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.h1Home {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 59.8px;
+  text-align: left;
+  color: #1e212c;
+}
+
+.h6Home {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #1e212c;
+  text-transform: uppercase;
+}
+
+.containerTextHome {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.leftPosition {
+  position: absolute;
+  left: 0;
+  margin-top: 60px;
+}
+
+.rightPosition {
+  position: absolute;
+  right: 0;
+  margin-top: 288px;
+}
+
+.thirdSection {
+  padding: 0px 120px;
+  padding-bottom: 180px;
+}
+
+.textButtonContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headercontentThird {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fourthSection {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 120px;
+  padding-bottom: 120px;
+  gap: 60px;
+}
+
+.headerContentFourth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.tabButton {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #9a9ca5;
+}
+
+.tabButton.active {
+  border: 1px solid #ff3f3a;
+  background-color: transparent;
+  padding: 10px 100px;
+  gap: 10px;
+  border-radius: 4px;
+  color: #ff3f3a;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.tabButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textCnt {
+  display: flex;
+  flex-direction: column;
+  width: 495px;
+  gap: 24px;
+}
+
+.tabsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.tabContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textCnt h2 {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 41.6px;
+  text-align: left;
+  color: #1e212c;
+}
+
+.textCnt p {
+  color: #424551;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+}
+
+.fifthSection {
+  background-color: #fedcd2;
+  padding: 50px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.cotentTextFifth h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 62.4px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ff3f3a;
+}
+
+.cotentTextFifth p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #1e212c;
+  display: flex;
+  flex-direction: column;
+}
+
+.cotentTextFifth p span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #787a80;
+}
+
+.textFor {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #1e212c;
+  display: flex;
+  flex-direction: column;
+}
+
+.textFor span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #787a80;
+}
+
+.cotentTextFifth {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.onlyOneAccordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 32px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 1230px;
+}
+
+.containerAccardion {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.onlyOneAccordion:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 4px -4px #1e212c0d;
+  box-shadow: 0px 12px 10px -6px #ff3f3a14;
+  box-shadow: 0px 30px 24px -10px #ff3f3a1a;
+  box-shadow: 0px 80px 80px -20px #ff3f3a29;
+}
+
+.buttonsContainetCenter h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+  color: #1e212c;
+}
+
+.buttonsContainetCenter {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.sixthSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
+  padding-bottom: 0px;
+}
+
+.iconsContentHome {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.leftSideSixth p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #424551;
+}
+
+.leftSideSixth {
+  width: 392px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.seventhSection {
+  padding: 120px;
+  padding-top: 0px;
+  background-color: #f4f5f6;
+  margin-top: -180px;
+}
+
+.sec1 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.profileCard {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.imageContainerSeventh {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageContainerSeventh img {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.imageContainerSeventh:hover img {
+  transform: scale(1.1);
+}
+
+.socialIcons {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.imageContainerSeventh:hover .socialIcons {
+  opacity: 1;
+}
+
+.allProfile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h3Home {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.h3Home p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: #787a80;
+}
+
+.sec2 {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.divAllSec2 {
+  display: flex;
+  align-items: center;
+  gap: 81px;
+}
+
+.insideDivSec2 {
+  width: 1020px;
+  background-color: #fff;
+  padding: 64px 105px;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.insideRightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.lorem {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #424551;
+}
+
+.imgText {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.h6HomeSeven span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #787a80;
+}
+
+.h6HomeSeven {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  text-align: left;
+  color: #1e212c;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.eighthSection {
+  padding: 120px;
+}

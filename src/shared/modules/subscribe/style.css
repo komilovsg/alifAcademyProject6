@@ -1,0 +1,67 @@
+#subcribe {
+  background-color: #fedcd1;
+  padding: 120px;
+  padding-bottom: 180px;
+}
+
+.textContentSub {
+  width: 810px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.h1Homes {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 59.8px;
+  text-align: center;
+  color: #1e212c;
+}
+
+.allSub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.inputButtons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.inputButtons :nth-child(1) {
+  width: 422px;
+  height: 54px;
+  padding: 13px 272px 13px 16px;
+  gap: 0px;
+  border-radius: 4px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  border: 1px solid #d7dadd;
+}
+
+.inputButtons :nth-child(1)::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #9a9ca5;
+}
+
+.illustrationContent :nth-child(1) {
+  position: absolute;
+  right: 0;
+  margin-top: -66px;
+}
+
+.illustrationContent :nth-child(2) {
+  position: absolute;
+  left: 0;
+  margin-top: -66px;
+}
+

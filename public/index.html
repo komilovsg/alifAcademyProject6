@@ -2,8 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Project 6</title>
+    <link rel="stylesheet" href="../src/index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <slot id="navbar"></slot>
+    <slot id="pages"></slot>
+    <slot id="subcribe"></slot>
+    <slot id="footer"></slot>
+
+    <script src="../src/index.js" type="module"></script>
+  </body>
 </html>

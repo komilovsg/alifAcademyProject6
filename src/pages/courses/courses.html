@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section
+      id="courses"
+      class="py-[80px] px-[120px] flex flex-col items-center gap-[40px]"
+    >
+      <header class="flex flex-col items-center mb-5">
+        <span class="h6Home">Our courses</span>
+        <h1 class="h1Home">Lectures, workshops & master-classes</h1>
+      </header>
+      <div class="flex gap-9">
+        <span>
+          Event category
+          <select name="" class="px-2 py-1 border border-s-2 rounded-md">
+            <option value="">all themes</option>
+            <option value="">all themes</option>
+            <option value="">all themes</option>
+          </select>
+        </span>
+        <span>
+          Sort by
+          <select name="" class="px-2 py-1 border border-s-2 rounded-md">
+            <option value="">newest</option>
+            <option value="">newest</option>
+            <option value="">newest</option>
+          </select>
+        </span>
+        <span>
+          Show
+          <select name="" class="px-2 py-1 border border-s-2 rounded-md mx-2">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+          </select>
+          <span class="text-gray-500">events per page</span>
+        </span>
+        <input
+          type="text"
+          placeholder="Search event..."
+          class="px-2 py-1 border border-s-2 rounded-md mx-2"
+        />
+
+        <div class="pt-1 flex gap-4">
+          <button onclick="setRectangleStyle()">
+            <img src="../src/shared/icons/list.png" alt="Rectangle Style" />
+          </button>
+          <button onclick="setSquareStyle()">
+            <img src="../src/shared/icons/grid.png" alt="Square Style" />
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-wrap gap-5 my-5 justify-center"
+        id="blocks-container"
+      >
+        <div
+          class="block-style rectangle-style border-2 p-7 gap-4 flex justify-between"
+        >
+          <div class="text-5xl text-red-500">05</div>
+          <div class="flex flex-col">
+            <span class="font-bold">August</span>
+            <span class="text-gray-500">11:00 – 14:00</span>
+          </div>
+          <div>
+            <p class="font-bold">
+              Formation of the organizational structure of the company in the
+              face of uncertainty.
+            </p>
+            <span class="text-gray-500">Online master-class</span>
+          </div>
+          <button
+            class="border-2 rounded-md border-red-500 px-5 text-red-500 hover:bg-red-500 hover:text-white active:bg-red-700"
+          >
+            View more
+          </button>
+        </div>
+
+        <!-- Блок 2 -->
+        <div
+          class="block-style rectangle-style border-2 p-7 gap-4 flex justify-between"
+        >
+          <div class="text-5xl text-red-500">24</div>
+          <div class="flex flex-col">
+            <span class="font-bold">Jule</span>
+            <span class="text-gray-500">11:00 – 12:30</span>
+          </div>
+          <div>
+            <p class="font-bold">
+              Formation of the organizational structure of the company in the
+              face of uncertainty.
+            </p>
+            <span class="text-gray-500">Online master-class</span>
+          </div>
+          <button
+            class="border-2 rounded-md border-red-500 px-5 text-red-500 hover:bg-red-500 hover:text-white active:bg-red-700"
+          >
+            View more
+          </button>
+        </div>
+
+        <!-- Блок 3 -->
+        <div
+          class="block-style rectangle-style border-2 p-7 gap-4 flex justify-between"
+        >
+          <div class="text-5xl text-red-500">16</div>
+          <div class="flex flex-col">
+            <span class="font-bold">July</span>
+            <span class="text-gray-500">10:00 – 13:00</span>
+          </div>
+          <div>
+            <p class="font-bold">
+              How to apply methods of speculative design in practice.
+              Worldbuilding prototyping.
+            </p>
+            <span class="text-gray-500">Online master-class</span>
+          </div>
+          <button
+            class="relative ml-4 border-2 rounded-md border-red-500 px-5 text-red-500 hover:bg-red-500 hover:text-white active:bg-red-700"
+          >
+            View more
+          </button>
+        </div>
+        <!-- 4 -->
+        <div
+          class="block-style rectangle-style border-2 p-7 gap-4 flex justify-between"
+        >
+          <div class="text-5xl text-red-500">10</div>
+          <div class="flex flex-col">
+            <span class="font-bold">July</span>
+            <span class="text-gray-500">9:00 – 14:00</span>
+          </div>
+          <div>
+            <p class="font-bold">
+              Formation of the organizational structure of the company in the
+              face of uncertainty.
+            </p>
+            <span class="text-gray-500">Onine workshop</span>
+          </div>
+          <button
+            class="relative ml-4 border-2 rounded-md border-red-500 px-5 text-red-500 hover:bg-red-500 hover:text-white active:bg-red-700"
+          >
+            View more
+          </button>
+        </div>
+        <!-- 5 -->
+        <div
+          class="block-style rectangle-style border-2 p-7 gap-4 flex justify-between"
+        >
+          <div class="text-5xl text-red-500">27</div>
+          <div class="flex flex-col">
+            <span class="font-bold">June</span>
+            <span class="text-gray-500">15:00 – 19:00</span>
+          </div>
+          <div>
+            <p class="font-bold">
+              Connection to Microsoft Excel and Google Sheets, Data
+              Visualization in Power BI.
+            </p>
+            <span class="text-gray-500">Onine master-class</span>
+          </div>
+          <button
+            class="relative ml-4 border-2 rounded-md border-red-500 px-5 text-red-500 hover:bg-red-500 hover:text-white active:bg-red-700"
+          >
+            View more
+          </button>
+        </div>
+        <!-- 6 -->
+        <div
+          class="block-style rectangle-style border-2 p-7 gap-4 flex justify-between"
+        >
+          <div class="text-5xl text-red-500">15</div>
+          <div class="flex flex-col">
+            <span class="font-bold">June</span>
+            <span class="text-gray-500">10:00 – 12:00</span>
+          </div>
+          <div>
+            <p class="font-bold">
+              The company's business page as an additional tool to support the
+              announcement.
+            </p>
+            <span class="text-gray-500">Onine lecture</span>
+          </div>
+          <button
+            class="relative ml-4 border-2 rounded-md border-red-500 px-5 text-red-500 hover:bg-red-500 hover:text-white active:bg-red-700"
+          >
+            View more
+          </button>
+        </div>
+        <!-- 7 -->
+        <div
+          class="block-style rectangle-style border-2 p-7 gap-4 flex justify-between"
+        >
+          <div class="text-5xl text-red-500">02</div>
+          <div class="flex flex-col">
+            <span class="font-bold">June</span>
+            <span class="text-gray-500">11:00 – 13:00</span>
+          </div>
+          <div>
+            <p class="font-bold">
+              How to brief a client and present your design to approve it from
+              the first show.
+            </p>
+            <span class="text-gray-500">Onine lecture</span>
+          </div>
+          <button
+            class="relative ml-4 border-2 rounded-md border-red-500 px-5 text-red-500 hover:bg-red-500 hover:text-white active:bg-red-700"
+          >
+            View more
+          </button>
+        </div>
+        <!-- 8 -->
+        <div
+          class="block-style rectangle-style border-2 p-7 gap-4 flex justify-between"
+        >
+          <div class="text-5xl text-red-500">29</div>
+          <div class="flex flex-col">
+            <span class="font-bold">May</span>
+            <span class="text-gray-500">11:00 – 12:00</span>
+          </div>
+          <div>
+            <p class="font-bold">
+              Formation of the organizational structure of the company in the
+              face of uncertainty.
+            </p>
+            <span class="text-gray-500">Onine lecture</span>
+          </div>
+          <button
+            class="ml-4 border-2 rounded-md border-red-500 px-7 text-red-500 hover:bg-red-500 hover:text-white active:bg-red-700"
+          >
+            View more
+          </button>
+        </div>
+        <!-- 9 -->
+        <div
+          class="block-style rectangle-style border-2 p-7 gap-4 flex justify-between"
+        >
+          <div class="text-5xl text-red-500">18</div>
+          <div class="flex flex-col">
+            <span class="font-bold">May</span>
+            <span class="text-gray-500">10:00 – 12:00</span>
+          </div>
+          <div>
+            <p class="font-bold">
+              The company's business page as an additional tool to support the
+              announcement
+            </p>
+            <span class="text-gray-500">Onine lecture</span>
+          </div>
+          <button
+            class="relative ml-4 border-2 rounded-md border-red-500 px-5 text-red-500 hover:bg-red-500 hover:text-white active:bg-red-700"
+          >
+            View more
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
